@@ -36,7 +36,7 @@ subprojects {
     }
 
     dependencies {
-        implementation 'group.aelysium.rustyconnector:core:0.9.2-102'
+        implementation 'group.aelysium.rustyconnector:core:0.9.2-103'
         //implementation 'group.aelysium.rustyconnector:core:0.9.1'
     }
 }
