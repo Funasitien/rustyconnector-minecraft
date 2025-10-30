@@ -117,7 +117,7 @@
 # 🤔 Returning Features
 The v0.9.0 rewrite has removed many "extra" features in previous versions.
 These features are being incrementally released as external modules you can install if you need them.
-- ### 🔳 Whitelist
+- ### [✅ Whitelist](https://github.com/Aelysium-Group/rcm-whitelists)
 - ### 🔳 Static Family
 - ### 🔳 Anchors/Hub
 - ### 🔳 Player Registry (If a haze provider exists, we can persist player data to the database.)
@@ -145,7 +145,7 @@ These features are being incrementally released as external modules you can inst
 ## 🌌 Networks Served ([Click to view](https://bstats.org/plugin/velocity/RustyConnector/17972)):
 [![RustyConnector bstats graph](https://bstats.org/signatures/velocity/RustyConnector.svg)](https://bstats.org/signatures/velocity/RustyConnector.svg)
 
-2025 © [Aelysium](https://www.aelysium.group)
+2025 © [Aelysium Group LLC](https://www.aelysium.group)
 
 <!-- URL LIST -->
 [Folia]:https://github.com/PaperMC/Folia
