@@ -4,4 +4,4 @@ main: group.aelysium.rustyconnector.plugin.paper.PaperRustyConnector
 api-version: 1.16
 website: https://github.com/Aelysium-Group/rusty-connector
 authors: [ Juice ]
-folia-support: true
+folia-supported: true
