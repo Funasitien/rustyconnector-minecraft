@@ -18,8 +18,8 @@ public class OnPlayerKicked {
     public EventTask onPlayerKicked(KickedFromServerEvent event) {
         return EventTask.async(() -> {
             Player player = RC.P.Adapter().convertToRCPlayer(event.getPlayer());
-            net.kyori.adventure.text.Component reason = (net.kyori.adventure.text.Component) event.getServerKickReason().orElse(Component.text("Kicked by server.", NamedTextColor.RED);
-            PlayerKickedResponse r = RC.P.Adapter().onKicked(player, reason);
+            net.kyori.adventure.text.Component reason = (net.kyori.adventure.text.Component) event.getServerKickReason().orElse(Component.text("Kicked by server.", NamedTextColor.RED));
+            ProxyAdapter.PlayerKickedResponse r = RC.P.Adapter().onKicked(player, reason);
 
             if(r.redirect() == null) {
                 event.setResult(KickedFromServerEvent.Notify.create(r.reason()));
