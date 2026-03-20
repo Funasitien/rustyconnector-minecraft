@@ -19,6 +19,7 @@ allprojects {
         maven { url = "https://maven.mrnavastar.me/snapshots/" }
         maven { url = "https://maven.mrnavastar.me/releases/" }
         maven { url = "https://repo.eclipse.org/content/groups/releases/" }
+        maven { url = "https://repo.loohpjames.com/repository/"}
     }
 }
 
